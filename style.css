@@ -1,0 +1,76 @@
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightseagreen;
+    color: white;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+button {
+    background: white;
+    color: lightseagreen;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.1rem;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+    background: lightskyblue;
+}
+
+span {
+    color: white;
+    margin-right: 10px;
+    font-size: 2rem;
+}
+
+.result {
+    margin-top: 40px;
+}
+
+.lives {
+    margin-top: 30px;
+}
+
+form {
+    margin-top: 40px;
+    display: none;
+}
+
+form input {
+    background-color: white;
+    color: lightseagreen;
+    padding: 20px;
+    border: none;
+    font-size: 1.1rem;
+}
+
+form input:hover {
+    background-color: lightskyblue;
+    cursor: pointer;
+}
+
+.futbol, .companies, .nintendo {
+    display: none;
+    margin-top: 50px;
+}
+
+.lost, .win {
+    display: none;
+}
